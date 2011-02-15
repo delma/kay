@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%=@title%></title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div id="background">
+      <div id="wrapper">
+
+        <header id="header">
+
+          <hgroup class="logo">
+            <h1><a href="../." title="Retour | Accueil"><img src="/images/logo.gif" alt="NIMPEX CONSULTING"></a></h1>
+            <h2>Une Mannière de vous engager localement avec nous !</h2>
+<object data="/images/ba.swf" width='728' height='90' /></object>
+
+          </hgroup>
+
+          <nav>
+            <h2 class="hidden">Navigation</h2>
+
+            <div id="mainMenu">
+              <ul class="active">
+                <li><a href="/nimpex/index"><span>Accueil</span></a></li>
+                <li><a href="/nimpex/structure"><span>Structure</span></a></li>
+                <li><a href="/nimpex/services"><span>Services</span></li>
+                <li><a href="/nimpex/performance"><span>Performance</span></li>
+                <li><a href="/nimpex/produits"><span>Produits</span></li>
+                <li><a href="/nimpex/contact"><span>Contact</span></a></li>
+              </ul>
+            </div>
+
+            <h2 class="hidden">Quick Navigation</h2>
+
+            <ul id="quickNav">
+
+              <li class="home"><a href="../." title="Accueil"><span>Accueil</span></a></li>
+              <li class="map"><a href="../." title="Structre"><span>Structure</span></a></li>
+              <li class="contact"><a href="../." title="Services"><span>Services</span></a></li>
+              <li class="contact"><a href="../." title="Produits"><span>Produits</span></a></li>
+              <li class="contact"><a href="../." title="Contact"><span>contact</span></a></li>
+            </ul>
+
+            <h2 class="hidden">Languages</h2>
+
+            <ul id="lang">
+
+              <li class="en"><a href="../." title="English"><span></span></a></li>
+              <li class="de"><a href="../." title="Deutsch"><span></span></a></li>
+              <li class="fr"><a href="../." title="Français"><span></span></a></li>
+            </ul>
+          </nav>
+
+          <form action="../.">
+            <fieldset>
+
+              <legend>Go</legend>
+              <input type="search" class="text" name="search" title="Veuillez saisir un mot, ou une phrase.">
+              <input type="submit" class="submit" value="Go">
+            </fieldset>
+          </form>
+
+        </header>
+
+        <section id="content">
+
+
+
+
+
+        <aside id="sidebar">
+
+          <nav class="navMenu">
+            <h1>Nos Partenaires</h1>
+
+            <ul>
+              <li><a href="http://www.utilis.fr/" target="_blank" title="Fabricant de tentes polyvalentes à montage rapide.">UTILIS</a></li>
+              <li><a href="http://www.stragefi.fr/" target="_blank" title="Expert en Valorisation et Gestion des Compétences">STRAGEFI</a></li>
+             <li><a href="http://www.haverboecker.de/" target="_blank" title="Fabriquons des toiles métalliques et des produits en toile métallique pour toutes applications.">HAVER & BOECKER</a></li>
+             <li><a href="http://www.fam.de/" target="_blank" title="Fabricant de machines de traitement et valorisation pour les mines.">FAM</a></li>
+             <li><a href="http://www.tttankstation.de/" target="_blank" title="Fabricant des encres pour la recharge de cartouches d'imprimante.">TTT WORLD</a></li>
+             <li><a href="http://www.ingemmologie.com/" target="_blank" title="Formation: comment déterminer l’origine et l’authenticité des pierres gemmes (diamant, rubis, émeraude, saphir,…)">INSTITUT NATIONAL DE GEMMOLOGIE</a></li>
+             <li><a href="http://www.myspace.com/stromphoto" target="_blank" title="Spécialist des Média : Cinéma, TV, Presse, Photos... ">FRANCK STOMME</a></li>
+
+<li><a href="http://www.cgsh.com" target="_blank" title="Droit et Business.">CLEARLY GOTTLIEB STEEN & HAMILTON</a></li>
+<li><a href="#" target="_blank" title="Commissariat et expertise comptable.">FIDUCE</a></li>
+
+            </ul>
+
+          </nav>
+
+          <h1>Autre liens</h1>
+          <a href="#">Exemple lien produit #1</a><br>
+          <a href="#">Exemple Lien produit #2</a><br>
+          <a href="#">Exemple Lien produit #3</a><br>
+          <a href="#">Exemple Lien produit #4</a><br>
+          <a href="#">Exemple Lien produit #5</a><br>
+
+          <h1>Contact</h1>
+
+          <address>
+            N0M:<br>
+            ADDRESSE:<br>
+            VILLE:<br>
+
+            TELEPHONE:<br>
+            EMAIL:<br>
+          </address>
+
+        </aside>
+<%= yield %>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="width">
+        <p class="copyright">
+          <small>
+            &copy; <a href="http://nimpexconsulting.net">NIMPEX CONSULTING</a> 2010, All rights reserved.
+          <a href="#" title="Mention légale">Mention légale</a>
+          </small>
+        </p>
+
+        <p class="HTML5">
+
+          <small>
+             <abbr title="nimpex">Site</abbr> realised by <a href="#" title="delmaconcept">Delma</a>.
+          </small>
+        </p>
+
+        <div id="linkbuilding">
+          <ul>
+
+            <li><a href="/nimpex/index" title="Retour">Accueil</a></li>
+            <li><a href="/nimpex/services" title="Retour">Services</a></li>
+            <li><a href="/nimpex/structure" title="Retour">Structure</a></li>
+            <li><a href="/nimpex/produits" title="Retour">Produits</a></li>
+            <li><a href="/nimpex/contact" title="Retour">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+</footer>
+
+        </section>
+
+
+
+</body>
+</html>
+
