@@ -26,7 +26,7 @@ hgroup             { display: block; }
 #wrapper:after     { display: block; clear: both; content: " "; }
 #header            { position: relative; width: 100%; height: 170px; }
 #content           { display: inline; float: left; width: 619px; margin: 0 0 15px 30px; }
-#sidebar           { display: inline; float: right; width: 248px; margin: 0px -290px 100px 0px; }
+#sidebar           { display: inline; float: right; width: 260px; margin: 0px -290px 100px 10px; }
 
 
 
@@ -36,7 +36,7 @@ hgroup             { display: block; }
 
 /* * * * * *  logo  * * * * * */
 #header .logo                      {  }
-#header .logo h1                   { position: absolute; top: 4px; left: 34px; margin: 0; }
+#header .logo h1                   { position: absolute; top: 12px; left: 30px; margin: 0; }
 #header .logo a:focus              { background-color: transparent; }
 #header .logo h2                   { position: absolute; top: 70px; left: 350px; margin: 0; font-size: 1.25em; color: #aaa; }
 
@@ -60,7 +60,7 @@ hgroup             { display: block; }
 
 
 /* * * * * *  main menu  * * * * * */
-#mainMenu                          { position: absolute; bottom: 0; left: 0; width: 100%; background: #cce5ff;}
+#mainMenu                          { position: absolute; bottom: 0; left: 0; width: 100%; background: #cce5ff; -webkit-box-shadow: 1px 3px 3px #777; -moz-box-shadow: 1px 3px 3px #777;}
 #mainMenu ul                       { margin: 0; padding: 2px 0 0 32px;}
 #mainMenu ul li                    { display: inline; float: left; padding: 0; font-weight: bold; font-size:12pt;}
 #mainMenu ul li a                  { float: left; text-decoration: none; color: #1d0c0c; }
@@ -131,19 +131,19 @@ ul#lang li.fr a span               { background-position: -70px 0; }
 
 #c, #tagcloud {
 		margin : 0 0 20px 0;
-		padding : 5px 10px;
-		width : 178px;
+		padding : 18px 10px;
+		width : 230px;
 		}
 		#c p, #c a {
-			font-size : 11px;
-			line-height : 15px;
+			font-size : 13px;
+			line-height : 16px;
 		}
 		#c p {
 			margin : 0 0 10px 0;
 		}
 		#c img {
 			float : left;
-			margin : 4px 10px 2px 0;
+			margin : 2px 10px 2px 0;
 		}
 		.meta {
 		margin : 20px 0 3px;
@@ -160,23 +160,7 @@ ul#lang li.fr a span               { background-position: -70px 0; }
 /* * * * * *  MAIN CONTENT THINGS  * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * */
 
-/* * * * * *  floats  * * * * * */
-.floatBoxes                        { width: 100%; margin: 2em 0; }
-.floatBoxes:after                  { display: block; clear: both; content: " "; }
-.floatBoxes article                { display: inline; float: left; width: 186px; margin: 0 30px 0 0; background: #eee; }
-.floatBoxes article.last           { margin-right: 0; }
-.floatBoxes article a              { display: block; padding: 100px 10px 10px; color: black; text-decoration: none; }
-.floatBoxes article a:hover        { background: #ddd; }
-.floatBoxes article a h1           { margin: 0 0 10px; font-size: 1.166em; font-weight: bold; text-align: center; }
-.floatBoxes article a p            { margin: 0; }
 
-
-/* * * * * *  news list  * * * * * */
-.newsList article h1               { margin: 12px 0 3px; font-size: 1.166em; font-weight: bold; }
-.newsList article p                { margin-top: 0; }
-
-.floatBoxes h1,
-.newsList h1                       { font-size: 1.5em; }
 
 
 /* * * * * *  todo  * * * * * */
